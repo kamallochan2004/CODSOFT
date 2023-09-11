@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact<br> Ph:+91856XXXXX00</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftpart">
+                Hello,I am <span class="orange">Kamallochan</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightpart">
+                <img src="image/6f76613becab_portrait-removebg-preview.png" alt="">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        &copy; 2023 Kamallochan Das. All rights reserved
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+       
+       var typed = new Typed('#element', {
+          strings: ['Web Designer', 'Learner','Frontend Developer'],
+          typeSpeed: 100,
+          loop:true
+        });
+    
+      </script>
+</body>
+
+</html>
