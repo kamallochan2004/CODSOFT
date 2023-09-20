@@ -58,11 +58,19 @@ section {
     width:30%;
 
 }
+#resume{
+    display: flex;
+    justify-content: center;
+    
+}
+#resume a:link{
+    color: rgb(54, 234, 108);
+}
 .orange{
    color:  orange;
 }
 .rightpart img{
-    position: ;
+    position: relative;
     width: 50%;
     margin: 15% 0;
   
@@ -73,5 +81,5 @@ section {
 footer{
     position:relative;
     text-align: center;
-    margin:13%;
+    padding:5%;
 }
